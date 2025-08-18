@@ -1,16 +1,16 @@
 export const stats = [
   {
-    icon: "/Icon+bg (1).svg", 
+    icon: "/images/Icon+bg1.svg", 
     count: 25850,
     label: "Jobs"
   },
   {
-    icon: "/Icon+bg.svg", 
+    icon: "/images/Icon+bg.svg", 
     count: 10250,
     label: "Candidates"
   },
   {
-    icon: "/Icon+bg (2).svg", 
+    icon: "/images/Icon+bg2.svg", 
     count: 18400,
     label: "Companies"
   }

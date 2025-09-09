@@ -5,9 +5,10 @@ import ProtectedRoute from "../../component/ProtectedRoute.js";
 const page = () => {
   return (
     <>
-    <ProtectedRoute>
+    {/* <ProtectedRoute>
       <Contact/>
-    </ProtectedRoute>
+    </ProtectedRoute> */}
+     <Contact/>
     </>
   )
 }

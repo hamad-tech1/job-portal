@@ -1,22 +1,22 @@
 export const stats = [
   {
-    icon: "/images/Icon+bg1.svg", 
+    icon: "/images/Icon+bg1.svg",
     count: 25850,
     label: "Jobs"
   },
   {
-    icon: "/images/Icon+bg.svg", 
+    icon: "/images/Icon+bg.svg",
     count: 10250,
     label: "Candidates"
   },
   {
-    icon: "/images/Icon+bg2.svg", 
+    icon: "/images/Icon+bg2.svg",
     count: 18400,
     label: "Companies"
   }
 ];
 
-export const cards =[
+export const cards = [
   { id: 1, src: "/logo.svg", alt: "Logo 1" },
   { id: 2, src: "/logos.svg", alt: "Logo 2" },
   { id: 3, src: "/logo (1).svg", alt: "Logo 3" },
@@ -297,7 +297,7 @@ export const testimonials = [
   {
     title: "Amazing services",
     description:
-      "Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed tristique in dolor. Mus etiam et vestibulum venenatis",
+      "Mus etiam et vestibulum venenatis viverra ut. Elit morbi bibendum ullamcorper augue faucibus Metus faucibus sed turpis lectus feugiat tincidunt",
     rating: 66,
     stars: "/Stars.svg",
     avatar: "/Avatar.svg",

@@ -6,9 +6,10 @@ import ProtectedRoute from "../../component/ProtectedRoute.js";
 const page = () => {
   return (
     <>
-    <ProtectedRoute>
+    {/* <ProtectedRoute>
       <Landingpage/>
-    </ProtectedRoute>
+    </ProtectedRoute> */}
+     <Landingpage/>
     </>
   )
 }

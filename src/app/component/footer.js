@@ -54,7 +54,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className='p-2 rounded-md text-black w-full mb-2 border border-gray-300'
+              className='p-2 rounded-md  w-full mb-2 border border-gray-300 placeholder:text-white text-white outline-0 '
             />
             <button className='bg-[#309689] p-2 rounded-md w-full' style={{ cursor: 'pointer' }}>Subscribe</button>
           </div>

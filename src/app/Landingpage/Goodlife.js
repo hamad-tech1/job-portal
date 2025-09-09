@@ -31,7 +31,7 @@ const Goodlife = () => {
             <button className="bg-[#309689] text-white py-2 px-6 rounded-md w-full sm:w-auto" style={{ cursor: 'pointer' }}>
               Search jobs
             </button>
-            <p className="text-green-600 pt-2 sm:pt-0 underline cursor-pointer text-center sm:text-left">
+            <p className="text-green-600 pt-2 sm:pt-0 underline cursor-pointer text-center sm:text-left flex items-center">
               Learn more
             </p>
           </div>

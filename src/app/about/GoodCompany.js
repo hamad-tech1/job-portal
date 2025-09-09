@@ -20,7 +20,7 @@ const GoodCompany = () => {
   return (
     <div className="flex flex-col justify-center items-center my-5 md:my-10 px-4 md:px-0">
       {/* Video Section */}
-      <div className="flex flex-col justify-center items-center relative w-full md:w-[80%]">
+      <div className="flex flex-col justify-center items-center relative  w-full md:w-[80%]">
         <div className="h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full">
           <video
             ref={videoRef}
@@ -46,7 +46,7 @@ const GoodCompany = () => {
       </div>
 
       {/* Steps Section */}
-      <div className="flex flex-col md:flex-row justify-evenly items-center bg-black w-full md:w-[80%] py-6 rounded-b-2xl space-y-6 md:space-y-0">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1  bg-black w-full md:w-[80%] py-6 rounded-b-2xl space-y-6 md:space-y-0">
         {video.map((item) => (
           <div
             key={item.id}

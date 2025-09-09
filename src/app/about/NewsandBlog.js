@@ -11,7 +11,7 @@ const NewsandBlog = () => {
           Metus faucibus sed turpis lectus feugiat tincidunt. Rhoncus sed
           tristique in dolor
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-6 md:max-w-[85%] w-full">
       {articles.map((item, index) => (
         <div key={index} className="w-full">
           {/* Video section */}
